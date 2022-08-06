@@ -1,0 +1,51 @@
+.email-section {
+  padding: 300px 0;
+  padding-bottom: 330px;
+  height: 400px;
+  background-image: url("../../images/Mask-eamil.png");
+  background-repeat: no-repeat;
+  background-position: top 0px right 0;
+  background-size: cover;
+}
+
+.email{
+  padding-left: 100px;
+}
+
+.email__title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  /* or 42% */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.email__input {
+  padding: 12px 20px;
+  padding-right: 140px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+
+.email__input:focus{
+  border: 5px solid #FFBD54;
+}
+
+.email__input:focus::placeholder{
+  opacity: 0;
+}
+
+.email__btn{
+  margin-left: 20px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333;
+  color: white;
+}

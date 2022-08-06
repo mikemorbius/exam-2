@@ -1,0 +1,65 @@
+.footer__list {
+  margin: 0px;
+  padding: 60px 0px;
+  margin-top: 200px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer {
+  background-color: #EBEBEB;
+}
+
+.footer__sublist {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.footer__subitem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__logo:hover{
+  opacity: .7;
+}
+
+.footer__logo:active{
+  opacity: .5;
+}
+
+.sublink-schedule,
+.sublink-house,
+.sublink-phone {
+  position: relative;
+}
+
+.sublink-schedule::before {
+  content: url(../../images/schedule.svg);
+  position: absolute;
+  left: -20px;
+}
+
+.sublink-house::before {
+  content: url(../../images/house.svg);
+  position: absolute;
+  left: -20px;
+}
+
+.sublink-phone::before {
+  content: url(../../images/phone.svg);
+  position: absolute;
+  left: -20px;
+}
+
+.footer__sublink {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__sublink:hover {
+  color: #FFBD54;
+}

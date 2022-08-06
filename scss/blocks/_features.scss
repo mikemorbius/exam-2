@@ -1,0 +1,153 @@
+.features {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 48px;
+
+  color: #333333;
+}
+
+
+.features__list {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 80px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features__list::before {
+  content: url("../../images/arrow-left.svg");
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.features__list::after {
+  content: url("../../images/arrow-right.svg");
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.features__item {
+  width: 195px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ececec;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features__item:hover {
+  opacity: .8;
+}
+
+.features__item:active {
+  opacity: .6;
+}
+
+
+.features__info {
+  margin: 15px 32px;
+  padding: 35px 43px;
+  background-color: #ececec;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__sub-img {
+  border-radius: 5px;
+}
+
+.features__sub {
+  width: 520px;
+}
+
+.features__subtitle {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  font-size: 36px;
+  line-height: 20px;
+  /* or 56% */
+
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.features__subtext {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  text-align: left;
+
+  color: #949494;
+}
+
+.features__buttons{
+  margin-top: 35px;
+  display: flex;
+}
+
+.features__price{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  padding: 15px 35px;
+  border: none;
+  background-color: #FFBD54;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.features__price:hover{
+  opacity: .8;
+  color: #FFBD54;
+  background-color: #333333;
+}
+
+.features__price:active{
+  opacity: .6;
+}
+
+.features__price-text{
+  margin-left: 7px;
+}
+
+.features__date{
+  display: flex;
+  align-items: center;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #333333;
+}
+
+.features__date:hover{
+  opacity: .8;
+  color: #333333;
+  background-color: #FFBD54;
+}
+
+.features__date:active{
+  opacity: .6;
+}
+
+.features__date-text{
+  margin-left: 7px;
+}
