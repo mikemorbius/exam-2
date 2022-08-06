@@ -1,0 +1,91 @@
+.useful-section{
+  margin-bottom: 135px;
+}
+.useful__name {
+  margin: 151px auto 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.cards {
+  height: 435px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.card {
+  height: 100%;
+  background: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+
+.left-card{
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__context {
+  padding: 21px 22px 37px 30px;
+}
+
+.card__date {
+  float: right;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.card__name {
+  margin-top: 41px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.card__text {
+  margin-top: 10px;
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.card__link {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+  }
+
+}
+
+.center-card {
+  width: 640px;
+  display: flex;
+}
+
+.hashtag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+}
+.right-card{
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+}
