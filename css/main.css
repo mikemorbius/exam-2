@@ -375,6 +375,8 @@ template {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 body {
@@ -811,6 +813,16 @@ a {
           flex-direction: column;
 }
 
+.card:hover {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card:active {
+  -webkit-filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
 .features {
   padding-top: 100px;
   padding-bottom: 10px;
@@ -1123,10 +1135,6 @@ a {
   background: #FFFFFF;
   border-radius: 5px;
   border: none;
-}
-
-.email__input:focus {
-  border: 5px solid #FFBD54;
 }
 
 .email__input:focus::-webkit-input-placeholder {

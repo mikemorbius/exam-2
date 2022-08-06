@@ -33,10 +33,6 @@
   border: none;
 }
 
-.email__input:focus{
-  border: 5px solid #FFBD54;
-}
-
 .email__input:focus::placeholder{
   opacity: 0;
 }
